@@ -1,5 +1,5 @@
 const baseUrl = {
-  anime: "https://kuramanime.boo",
+  anime: "https://kuramanime.biz/",
   komik: "https://mangakita.id",
 };
 

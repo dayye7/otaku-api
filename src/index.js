@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.json({
     status: true,
     message: "Otaku API 🚀",
-    
+    docs: "🗿",
 });
 
 app.use((req, res) => {

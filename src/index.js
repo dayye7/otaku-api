@@ -13,14 +13,15 @@ app.get("/", (req, res) => {
   res.json({
     status: true,
     message: "Otaku API 🚀",
-    docs: "🗿",
+    docs: "https://docs.otaku.us.kg",
+  });
 });
 
 app.use((req, res) => {
   res.status(404).json({
     status: false,
     message: "Not found!",
-    
+    docs: "https://docs.otaku.us.kg",
   });
 });
 

@@ -382,7 +382,7 @@ export const getLatestUpdate= (req, res) => {
   const order = req.query.order || "update";
 
   request(
-    `${baseURL}/manga/?page=${order}`,
+    `${baseURL}/manga/?order=update`,
     (error, response, body) => {
       if (response.statusCode !== 200) {
         return res.status(500).json({

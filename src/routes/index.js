@@ -19,6 +19,7 @@ import {
   getChapterKomik,
   getGenreList,
   getGenreKomik,
+  getLatestUpdate,
 } from "../controllers/komikController.js";
 
 const router = express.Router();
@@ -40,5 +41,6 @@ router.get("/komik/genres", getGenreList);
 router.get("/komik/genre/:genre_id", getGenreKomik);
 router.get("/komik/:komik_id", getDetailKomik);
 router.get("/komik/chapter/:chapter_id", getChapterKomik);
+router.get("/komik/latest", getLatestUpdate);
 
 export default router;

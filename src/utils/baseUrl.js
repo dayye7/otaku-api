@@ -1,6 +1,6 @@
 const baseUrl = {
   anime: "https://kuramanime.biz/",
-  komik: "https://comicaso.id/",
+  komik: "https://mangakita.id/",
 };
 
 export default baseUrl;
